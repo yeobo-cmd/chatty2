@@ -1,0 +1,31 @@
+#send-button{
+    justify-content: center;
+    align-items: center;
+    background: #84c1f3;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+#send-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+
+#send-button:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+#message-input{
+    width: 30rem;
+    border-radius: .5rem;
+}
